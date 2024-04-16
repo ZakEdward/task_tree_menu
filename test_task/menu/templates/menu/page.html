@@ -1,0 +1,9 @@
+{% extends 'base_generic.html' %}
+{% load static %}
+
+{% block title %}{{ menu_items.0 }}{% endblock %}
+{% block content %}
+    <h1>
+        Вы перешли в меню: {{ menu_items.0 }}
+    </h1>
+{% endblock %}

@@ -1,0 +1,22 @@
+head {
+    display: flex;
+    justify-content: normal;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 1px;
+    background: #ecd1c1;
+}
+
+#header {
+    padding:100px 10px;
+    font-size:18px;
+    background-color: rgba(194, 174, 138, 0.75);
+}
+
+#content {
+    padding:100px 100px;
+    overflow: auto;
+}
